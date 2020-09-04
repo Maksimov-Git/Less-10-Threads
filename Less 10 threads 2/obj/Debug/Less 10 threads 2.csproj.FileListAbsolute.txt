@@ -1,0 +1,7 @@
+F:\обучение С#\программирование в информационных системах\Lesson 10\Less 10 Threads\Less 10 threads 2\bin\Debug\Less 10 threads 2.exe.config
+F:\обучение С#\программирование в информационных системах\Lesson 10\Less 10 Threads\Less 10 threads 2\bin\Debug\Less 10 threads 2.exe
+F:\обучение С#\программирование в информационных системах\Lesson 10\Less 10 Threads\Less 10 threads 2\bin\Debug\Less 10 threads 2.pdb
+F:\обучение С#\программирование в информационных системах\Lesson 10\Less 10 Threads\Less 10 threads 2\obj\Debug\Less 10 threads 2.csprojAssemblyReference.cache
+F:\обучение С#\программирование в информационных системах\Lesson 10\Less 10 Threads\Less 10 threads 2\obj\Debug\Less 10 threads 2.csproj.CoreCompileInputs.cache
+F:\обучение С#\программирование в информационных системах\Lesson 10\Less 10 Threads\Less 10 threads 2\obj\Debug\Less 10 threads 2.exe
+F:\обучение С#\программирование в информационных системах\Lesson 10\Less 10 Threads\Less 10 threads 2\obj\Debug\Less 10 threads 2.pdb
