@@ -13,14 +13,18 @@ namespace Less_10_threads_5
     {
         static void Tick(object o)
         {
-            Console.WriteLine("Tick");
+            Console.WriteLine(o.ToString());
         }
 
+        
         static void Main(string[] args)
         {
             TimerCallback tim = new TimerCallback(Tick);
-            Timer t = new Timer(Tick,null,3000,100);
+
+
+            Timer t = new Timer(tim,"Tick",3000,100);
             Console.ReadKey();
+            t.Dispose();
         }
     }
 }

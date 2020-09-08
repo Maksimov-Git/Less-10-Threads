@@ -18,7 +18,7 @@ namespace Less_10_threads_2
             //  
       
 
-            for (int i = 0; i < 100;i++ )
+            for (int i = 0; i < 22;i++ )
             {
                 Console.WriteLine("                   Имя Потока {0}, id {1} - {2} ", thread.Name, thread.GetHashCode(),i);
 
@@ -54,8 +54,9 @@ namespace Less_10_threads_2
 
 
 
-            //secondary.IsBackground = true;
-           
+           secondary.IsBackground = true;
+           // Console.ReadKey();
+            
         }
     }
 }

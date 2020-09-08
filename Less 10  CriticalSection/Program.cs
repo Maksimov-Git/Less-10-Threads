@@ -17,8 +17,8 @@ namespace Less_10__CriticalSection
         {
             int hash = Thread.CurrentThread.GetHashCode();
 
-             lock (block) // Закомментировать lock.
-         //   Monitor.Enter(block);
+          //  lock (block) // Закомментировать lock.
+           Monitor.Enter(block);
            {
                 for (int counter = 0; counter < 10; counter++)
                 {
@@ -27,13 +27,13 @@ namespace Less_10__CriticalSection
                 }
                 Console.WriteLine(new string('-', 20));
             }
-           // Monitor.Exit(block);
+            Monitor.Exit(block);
         }
 
     }
 
     [Synchronization]
-    class MyClass1:ContextBoundObject
+    class MyClass1//:ContextBoundObject
     {
        
         
@@ -62,7 +62,7 @@ namespace Less_10__CriticalSection
             {
                 Console.SetWindowSize(80, 40);
 
-                MyClass instance = new MyClass();
+                MyClass1 instance = new MyClass1();
 
                 for (int i = 0; i < 3; i++)
                 {

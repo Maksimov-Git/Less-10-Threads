@@ -22,7 +22,7 @@ namespace Less_10_threads_3
             System.Threading.ParameterizedThreadStart del = new System.Threading.ParameterizedThreadStart(Second);
 
 
-            System.Threading.Thread th = new System.Threading.Thread(Second);
+            System.Threading.Thread th = new System.Threading.Thread(del);
             th.Start("Привет! ");
             Console.ReadKey();
 
